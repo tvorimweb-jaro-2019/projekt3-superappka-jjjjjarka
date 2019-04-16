@@ -13,24 +13,60 @@ html { box-sizing: border-box; }
  https://fonts.google.com/specimen/Roboto
 */
 
-font-family: 'Roboto', sans-serif;
+    body {
+    padding: 0;
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #25133d;
+    }
+
 
 li {
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
+	margin: 0;
+    padding: 10px;
+    margin: 0 15px;
 }
 
+h1 {
+    font-size: 50px;
+    margin-top: 0px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
 
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    width: 300px;
+}
 
 .vizual {
-    background-color:#25133d;
+    background-image: url(images/pozadi.jpg);
+    background-size: 100%;
     font-family: 'Roboto', sans-serif;
     color: white;
+    width: 720px;
+    height: 340px;
+    padding: 30px;
+}
+
+.telefon {
+    position: absolute;
+    top: 111px;
+    left: 889px;
+    zoom: 80%;
 }
 
 .tlacitko1 {
     text-decoration: none;
     text-align: center;
+    font-weight: 400;
+    font-size: 14px;
     color: white;
     background-color: #48418e;
     border-radius: 8px;
@@ -44,6 +80,8 @@ li {
 .tlacitko2 {
     text-decoration: none;
     text-align: center;
+    font-weight: 400;
+    font-size: 14px;
     color: white;
     background-color: transparent;
     border-radius: 8px;
@@ -52,33 +90,62 @@ li {
     border: 1px solid white;
     width: 180px;
     float: left;
+    margin-left: 15px;
 }
 
-.tři odstavce { 
+
+
+
+#odstavec1 { 
     font-family: 'Roboto', sans-serif;
+    float: left;
+    width: 222px;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 0px;
+    margin-left: 25px;
 } 
 
-.copyright {
+
+#odstavec2 { 
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    width: 222px;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 0px;
+
+} 
+
+#odstavec3 { 
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    width: 222px;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 0px;
+
+} 
+
+#patka{ 
+    clear: both; 
     background-color: #48418e;
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     padding: 4px;
+    } 
+
+.copyright {
+   
 }
 
-body {
-    padding: 0;
-    margin: 0;
-    background-color: #e5e5e5;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-}
+
 
 .obal {
-    width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
+    width: 720px; /* obsah stránky je omezený do pruhu širokého 960px */
+    height: 650px;
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
